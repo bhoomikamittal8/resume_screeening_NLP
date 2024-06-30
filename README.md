@@ -2,7 +2,7 @@
 
 # Introduction:
 
-In the digital age, the recruitment process has undergone a significant transformation, thanks to advancements in machine learning and artificial intelligence. One such revolutionary application is in resume screening, where machine learning algorithms are utilized to automate and enhance the candidate selection process. In this post, we delve into an end-to-end project that leverages machine learning techniques to categorize resumes, provide job recommendations, and extract vital information seamlessly.
+In the digital age, the recruitment process has undergone a significant transformation, thanks to advancements in machine learning and artificial intelligence. One such revolutionary application is in resume screening, where machine learning algorithms are utilized to automate and enhance the candidate selection process. In this project, we delve into an end-to-end project that leverages machine learning & NLP techniques to categorize resumes, provide job recommendations, and extract vital information seamlessly.
 
 ## DISCLAIMER ⚠️
 > This is a POC(Proof of concept) kind-of project. The data used here comes up with no guarantee from the creator. So, don't use it for making decisions. If you do so, the creator is not responsible for anything. However, this project presents the idea that how we can use ML/NLP if developed at large scale and with authentic and verified data.
