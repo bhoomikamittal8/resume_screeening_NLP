@@ -1,39 +1,62 @@
 # Resume-Screening - NLP
 
-Datasets: https://www.kaggle.com/datasets/noorsaeed/resume-datasets
-
 # Introduction:
 
 In the digital age, the recruitment process has undergone a significant transformation, thanks to advancements in machine learning and artificial intelligence. One such revolutionary application is in resume screening, where machine learning algorithms are utilized to automate and enhance the candidate selection process. In this post, we delve into an end-to-end project that leverages machine learning techniques to categorize resumes, provide job recommendations, and extract vital information seamlessly.
 
-# The Challenge:
+## DISCLAIMER ⚠️
+> This is a POC(Proof of concept) kind-of project. The data used here comes up with no guarantee from the creator. So, don't use it for making decisions. If you do so, the creator is not responsible for anything. However, this project presents the idea that how we can use ML/NLP if developed at large scale and with authentic and verified data.
 
-Traditional resume screening processes are often time-consuming and prone to human bias. Sorting through numerous resumes to identify suitable candidates for a job opening can be overwhelming for recruiters. Moreover, manually extracting relevant information from resumes, such as skills, education, and contact details, adds another layer of complexity to the process.
+## DATA SOURCE 📊
+- [All datasets required for Resume Screening Project](https://www.kaggle.com/datasets/noorsaeed/resume-datasets)
 
-# The Solution:
-
-Our project offers a comprehensive solution to streamline the resume screening process using machine learning. By harnessing the power of natural language processing (NLP) techniques and classification algorithms, we automate the categorization of resumes based on predefined criteria. Additionally, our system provides personalized job recommendations to match candidates with suitable job openings, optimizing the recruitment process.
-
-# Key Features:
-
-1: Resume Parsing: Our system utilizes NLP techniques to extract essential information from resumes, including contact details, skills, education, and work experience. This automated parsing eliminates the need for manual data entry and ensures accuracy and efficiency.
-
-2: Categorization: Machine learning algorithms categorize resumes into predefined categories based on specific criteria set by recruiters or hiring managers. This categorization enables recruiters to quickly identify top candidates for further evaluation.
-
-3: Job Recommendations: Leveraging machine learning models, our system recommends relevant job openings to candidates based on their skills, experience, and preferences. This personalized approach enhances candidate engagement and increases the likelihood of successful matches.
-
-4: Benefits:
-
-Time-saving: Automating the resume screening process reduces the time and effort required for candidate selection, allowing recruiters to focus on more strategic tasks.
-Improved efficiency: By leveraging machine learning algorithms, our system ensures consistent and unbiased resume evaluation, leading to more informed hiring decisions.
-Enhanced candidate experience: Personalized job recommendations increase candidate satisfaction and engagement, resulting in higher retention rates and improved employer branding.
+# Built with 🛠️
+<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
+<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
+<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
+<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
+<code><img height="30" src="https://github.com/tomchen/stack-icons/raw/master/logos/bootstrap.svg"></code>
+<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
+<code><img height="30" src="https://icon2.cleanpng.com/20180802/iwp/kisspng-flask-by-example-python-web-framework-bottle-lico-softwares-websites-press-services-product-5b634c8e416770.5741331515332343182679.jpg"></code>
 
 
-5: Conclusion:
+<code><img height="30" src="https://raw.githubusercontent.com/numpy/numpy/7e7f4adab814b223f7f917369a72757cd28b10cb/branding/icons/numpylogo.svg"></code>
+<code><img height="30" src="https://raw.githubusercontent.com/pandas-dev/pandas/761bceb77d44aa63b71dda43ca46e8fd4b9d7422/web/pandas/static/img/pandas.svg"></code>
+<code><img height="30" src="https://matplotlib.org/_static/logo2.svg"></code>
+<code><img height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1280px-Scikit_learn_logo_small.svg.png"></code>
 
-Machine learning has revolutionized the way we approach resume screening, offering unparalleled efficiency, accuracy, and scalability. Our end-to-end project demonstrates the transformative potential of machine learning in the recruitment process, empowering organizations to make data-driven hiring decisions and unlock the full potential of their workforce.
 
-Join us on this journey to reimagine the future of recruitment with machine learning. Together, we can revolutionize the way we identify, evaluate, and engage top talent, driving innovation and growth in the ever-evolving job market.
+
+
+## How to use 💻
+- Upload the Resume (PDF, TXT) and get the extracted information by clicking submit
+
+## How to run locally 🛠️
+- Before the following steps make sure you have [git](https://git-scm.com/download), [Anaconda](https://www.anaconda.com/) or [miniconda](https://docs.conda.io/en/latest/miniconda.html) installed on your system
+- Clone the complete project with or you can just download the code and unzip it
+  ```
+  ❯ git clone -b deploy https://github.com/bhoomikamittal8/resume_screening_NLP.git
+  ```
+- Once the project is cloned, open anaconda prompt in the directory where the project was cloned and paste the following block
+  ```
+  conda create -n resume_screening_NLP python=3.6.12
+  conda activate resume_screening_NLP
+  ```
+only you have to activate it everytime you open new terminal or reopen project after exit.
+- Activate venv (virtual environment)
+    ```
+    conda activate resume_screening_NLP
+    ```
+- And finally run the project with
+  ```
+  python app.py
+  ```
+- Open the localhost url provided after running `app.py` and now you can use the project locally in your web browser.
+
+## Contact 📞
+
+#### If you have any doubt feel free to email me or hit me up on [LinkedIn](https://www.linkedin.com/in/bhoomikamittal/)
+
 
 
 
