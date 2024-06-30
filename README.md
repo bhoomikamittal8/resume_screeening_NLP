@@ -1,4 +1,4 @@
-# Resume-Screening - NLP
+# Resume Screening - NLP
 
 # Introduction:
 
